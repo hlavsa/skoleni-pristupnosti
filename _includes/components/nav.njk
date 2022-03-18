@@ -1,10 +1,36 @@
-<nav>
+{# <nav>
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>
-  {%- for entry in navPages %}
-    <li>
-      <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-    </li>
-  {%- endfor %}
+    {%- for entry in navPages %}
+      <li>
+        <a href="{{ entry.url | url }}" {% if entry.url == page.url %} data-current="current item" {% endif %}>{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
   </ul>
+</nav> #}
+<nav
+  data-animation="over-right"
+  class="navigation w-nav"
+  data-easing2="ease"
+  data-easing="ease"
+  data-collapse="medium"
+  role="banner"
+  data-duration="400"
+  id="MainNav"
+  data-doc-height="1">
+  <a id="skip-link" href="#" class="skip-link w-inline-block"></a>
+  <div class="navigation-wrap">
+    <a
+      href="/"
+      aria-current="page"
+      class="logo-link horizontal-layout align-center w-nav-brand w--current"
+      aria-label="home"><img
+        src="https://uploads-ssl.webflow.com/61a898d0b11c4da16f8513ee/61bb47ed3b63552435456ed7__gov.svg"
+        width="108"
+        alt="Logo Lev"
+        class="logo-image"/>
+      <div class="logo-text">Ministerstvo spravedlnosti</div>
+    </a>
+  </div>
+  <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
 </nav>

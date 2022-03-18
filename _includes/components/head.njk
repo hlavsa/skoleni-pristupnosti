@@ -1,16 +1,30 @@
 <head>
-  <meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta
+  name="description"
+  content=" ">
+<meta charset="utf-8">
+<meta
+  property="og:description"
+  content=" ">
+  <meta property="og:title" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:type" content="website">
   <link rel="dns-prefetch" href="https://identity.netlify.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4D337A">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ renderData.title or title or metadata.title }}</title>
+  <script>{{ js | jsmin | safe }}</script>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {% set css %}
-    {% include "assets/css/inline.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
-  {% set js %}
-    {% include "assets/js/inline.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
-</head>
+    {% set css %}
+      {% include "assets/css/inline.css" %}
+    {% endset %}
+  <style>{{css | cssmin | safe}}</style>
+    {% set js %}
+      {% include "assets/js/inline.js" %}
+    {% endset %}
+  <link rel="canonical" href="">
+  </head>
