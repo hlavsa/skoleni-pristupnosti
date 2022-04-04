@@ -2,13 +2,14 @@
 layout: layouts/base.njk
 section: prohlaseni
 ---
+<header class="intro-header">
+  <div class="intro-content w-container">
+  </div>
+</header>
 
-<h1> {{ title }}</h1>
-<div class="section wf-section">
-  <div class="container bg-white document-page-content w-container">
-    <div class="vertical-divider"></div>
-    
+
+<div class="w-container">
+  
     {{ layoutContent | safe }}
     
-  </div>
 </div>
