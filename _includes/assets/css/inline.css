@@ -72,88 +72,88 @@ main ul {
 }
 @media all {
   @media print {
-    .govuk-link[href^="/"]:after {
+    .msplink[href^="/"]:after {
       content: " (" attr(href) ")";
       font-size: 90%;
       word-wrap: break-word;
     }
   }
-  .govuk-grid-row:after {
+  .mspgrid-row:after {
     content: "";
     display: block;
     clear: both;
   }
-  .govuk-grid-column-full {
+  .mspgrid-column-full {
     box-sizing: border-box;
     width: 100%;
     padding: 0 15px;
   }
   @media (min-width: 40.0625em) {
-    .govuk-grid-column-full {
+    .mspgrid-column-full {
       width: 100%;
       float: left;
     }
   }
-  .govuk-grid-column-two-thirds {
+  .mspgrid-column-two-thirds {
     box-sizing: border-box;
     width: 100%;
     padding: 0 15px;
   }
   @media (min-width: 40.0625em) {
-    .govuk-grid-column-two-thirds {
+    .mspgrid-column-two-thirds {
       width: 66.6666%;
       float: left;
     }
   }
-  .govuk-\!-margin-bottom-2 {
+  .msp\!-margin-bottom-2 {
     margin-bottom: 10px !important;
   }
   @media (min-width: 40.0625em) {
-    .govuk-\!-margin-bottom-2 {
+    .msp\!-margin-bottom-2 {
       margin-bottom: 10px !important;
     }
   }
-  .govuk-\!-margin-bottom-6 {
+  .msp\!-margin-bottom-6 {
     margin-bottom: 20px !important;
   }
   @media (min-width: 40.0625em) {
-    .govuk-\!-margin-bottom-6 {
+    .msp\!-margin-bottom-6 {
       margin-bottom: 30px !important;
     }
   }
 }
 @media print {
-  .govuk-link {
+  .msplink {
     font-family: "GDS Transport", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-decoration: underline;
   }
   @media print {
-    .govuk-link {
+    .msplink {
       font-family: sans-serif;
     }
   }
-  .govuk-link:link {
+  .msplink:link {
     color: #10403c;
   }
-  .govuk-link:visited {
+  .msplink:visited {
     color: #4c2c92;
   }
-  .govuk-link:hover {
+  .msplink:hover {
     color: #003078;
   }
-  .govuk-link:active {
+  .msplink:active {
     color: #0b0c0c;
   }
   @media print {
-    .govuk-link[href^="/"]:after {
+    .msplink[href^="/"]:after {
       content: " (" attr(href) ")";
       font-size: 90%;
       word-wrap: break-word;
     }
   }
-  .govuk-heading-m {
+  .mspheading-m {
     color: #0b0c0c;
     font-family: "GDS Transport", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -167,34 +167,34 @@ main ul {
     margin-bottom: 15px;
   }
   @media print {
-    .govuk-heading-m {
+    .mspheading-m {
       color: #000;
     }
   }
   @media print {
-    .govuk-heading-m {
+    .mspheading-m {
       font-family: sans-serif;
     }
   }
   @media (min-width: 40.0625em) {
-    .govuk-heading-m {
+    .mspheading-m {
       font-size: 24px;
       font-size: 1.5rem;
       line-height: 1.25;
     }
   }
   @media print {
-    .govuk-heading-m {
+    .mspheading-m {
       font-size: 18pt;
       line-height: 1.15;
     }
   }
   @media (min-width: 40.0625em) {
-    .govuk-heading-m {
+    .mspheading-m {
       margin-bottom: 20px;
     }
   }
-  .govuk-heading-s {
+  .mspheading-s {
     color: #0b0c0c;
     font-family: "GDS Transport", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -208,34 +208,34 @@ main ul {
     margin-bottom: 15px;
   }
   @media print {
-    .govuk-heading-s {
+    .mspheading-s {
       color: #000;
     }
   }
   @media print {
-    .govuk-heading-s {
+    .mspheading-s {
       font-family: sans-serif;
     }
   }
   @media (min-width: 40.0625em) {
-    .govuk-heading-s {
+    .mspheading-s {
       font-size: 19px;
       font-size: 1.1875rem;
       line-height: 1.3157894737;
     }
   }
   @media print {
-    .govuk-heading-s {
+    .mspheading-s {
       font-size: 14pt;
       line-height: 1.15;
     }
   }
   @media (min-width: 40.0625em) {
-    .govuk-heading-s {
+    .mspheading-s {
       margin-bottom: 20px;
     }
   }
-  .govuk-body {
+  .mspbody {
     color: #0b0c0c;
     font-family: "GDS Transport", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -248,66 +248,66 @@ main ul {
     margin-bottom: 15px;
   }
   @media print {
-    .govuk-body {
+    .mspbody {
       color: #000;
     }
   }
   @media print {
-    .govuk-body {
+    .mspbody {
       font-family: sans-serif;
     }
   }
   @media (min-width: 40.0625em) {
-    .govuk-body {
+    .mspbody {
       font-size: 19px;
       font-size: 1.1875rem;
       line-height: 1.3157894737;
     }
   }
   @media print {
-    .govuk-body {
+    .mspbody {
       font-size: 14pt;
       line-height: 1.15;
     }
   }
   @media (min-width: 40.0625em) {
-    .govuk-body {
+    .mspbody {
       margin-bottom: 20px;
     }
   }
-  .govuk-grid-row {
+  .mspgrid-row {
     margin-right: -15px;
     margin-left: -15px;
   }
-  .govuk-grid-row:after {
+  .mspgrid-row:after {
     content: "";
     display: block;
     clear: both;
   }
-  .govuk-grid-column-full {
+  .mspgrid-column-full {
     box-sizing: border-box;
     width: 100%;
     padding: 0 15px;
   }
   @media (min-width: 40.0625em) {
-    .govuk-grid-column-full {
+    .mspgrid-column-full {
       width: 100%;
       float: left;
     }
   }
-  .govuk-\!-margin-bottom-2 {
+  .msp\!-margin-bottom-2 {
     margin-bottom: 10px !important;
   }
   @media (min-width: 40.0625em) {
-    .govuk-\!-margin-bottom-2 {
+    .msp\!-margin-bottom-2 {
       margin-bottom: 10px !important;
     }
   }
-  .govuk-\!-margin-bottom-6 {
+  .msp\!-margin-bottom-6 {
     margin-bottom: 20px !important;
   }
   @media (min-width: 40.0625em) {
-    .govuk-\!-margin-bottom-6 {
+    .msp\!-margin-bottom-6 {
       margin-bottom: 30px !important;
     }
   }
@@ -4754,7 +4754,7 @@ h2 {
     padding-right: 15px;
   }
 }
-cagov-feedback .feedback-form {
+msp-feedback .feedback-form {
   background: var(--primary-color);
 }
 
@@ -4862,10 +4862,10 @@ cagov-feedback .feedback-form {
 }
 
 /*! CSS Used from: Embedded */
-cagov-feedback {
+msp-feedback {
   width: 100%;
 }
-cagov-feedback .feedback-form {
+msp-feedback .feedback-form {
   background: #686868;
   padding: 1rem;
   border-radius: 0.3125rem;
@@ -4874,12 +4874,12 @@ cagov-feedback .feedback-form {
   margin-bottom: 30px;
   margin-top: 50px;
 }
-cagov-feedback .feedback-form-question {
+msp-feedback .feedback-form-question {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-cagov-feedback .feedback-form-label {
+msp-feedback .feedback-form-label {
   color: #fff;
   background-color: #686868;
   font-size: 1.125rem;
@@ -4890,12 +4890,12 @@ cagov-feedback .feedback-form-label {
   width: auto;
 }
 @media (max-width: 768px) {
-  cagov-feedback .feedback-form-label {
+  msp-feedback .feedback-form-label {
     line-height: unset;
     margin-bottom: 1rem;
   }
 }
-cagov-feedback .feedback-form-button {
+msp-feedback .feedback-form-button {
   padding: 1rem;
   color: var(--primary-dark-color, #003484);
   border: none;
@@ -4911,24 +4911,24 @@ cagov-feedback .feedback-form-button {
   background: #fff;
   font-weight: 700;
 }
-cagov-feedback .feedback-form-button:hover {
+msp-feedback .feedback-form-button:hover {
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
   text-decoration: underline;
 }
-cagov-feedback .feedback-form-button:focus {
+msp-feedback .feedback-form-button:focus {
   box-shadow: 0 0 0 2px #fff;
 }
-cagov-feedback .feedback-form-add {
+msp-feedback .feedback-form-add {
   padding-top: 0;
   display: none;
 }
 @media (max-width: 768px) {
-  cagov-feedback .feedback-form-add {
+  msp-feedback .feedback-form-add {
     text-align: left;
     padding-top: 0;
   }
 }
-cagov-feedback .feedback-form-add-grid {
+msp-feedback .feedback-form-add-grid {
   position: relative;
   margin-top: 1rem;
   display: inline-flex;
@@ -4936,11 +4936,11 @@ cagov-feedback .feedback-form-add-grid {
   align-items: flex-start;
 }
 @media (max-width: 768px) {
-  cagov-feedback .feedback-form-add-grid {
+  msp-feedback .feedback-form-add-grid {
     display: block;
   }
 }
-cagov-feedback .feedback-form-textarea {
+msp-feedback .feedback-form-textarea {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -4950,7 +4950,7 @@ cagov-feedback .feedback-form-textarea {
   height: 127px;
   width: 600px;
 }
-cagov-feedback .feedback-form-thanks {
+msp-feedback .feedback-form-thanks {
   display: none;
   color: #fff;
 }
@@ -5052,7 +5052,6 @@ cagov-feedback .feedback-form-thanks {
     color: #fff;
   }
 }
-/*! CSS Used from: https://cannabis.ca.gov/wp-content/plugins/ca-design-system-gutenberg-blocks/cagov-design-system/blocks/styles/manual/manual-caweb.v1.0.2.css?ver=5.8.4 ; media=all */
 @media all {
   a:focus {
     outline: solid 2px #fdb81e !important;
@@ -5085,7 +5084,7 @@ cagov-feedback .feedback-form-thanks {
     list-style: none;
   }
 }
-/*! CSS Used from: https://cannabis.ca.gov/wp-content/plugins/ca-design-system-gutenberg-blocks/cagov-design-system/blocks/styles/manual/colorscheme-cannabis.v1.0.8.min.css?ver=5.8.4 ; media=all */
+/*! CSS Used from: https://cannabis.ca.gov/wp-content/plugins/ca-design-system-gutenberg-blocks/msp-design-system/blocks/styles/manual/colorscheme-cannabis.v1.0.8.min.css?ver=5.8.4 ; media=all */
 @media all {
   a {
     color: #064e66;
@@ -5130,16 +5129,7 @@ cagov-feedback .feedback-form-thanks {
   a:focus {
     outline: solid 2px #2ea3f2;
   }
-  [class^="ca-gov-icon-"] {
-    font-family: "CaGov" !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  
   .ca-gov-icon-email:before {
     content: "\e609";
   }
@@ -5165,7 +5155,7 @@ cagov-feedback .feedback-form-thanks {
     color: #02374e;
   }
   [class^="ca-gov-icon-"] {
-    font-family: "CaGov" !important;
+    font-family: "msp" !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -5270,7 +5260,7 @@ blockquote:after,
   font-size: 1.5rem;
 }
 /*! CSS Used from: https://design.homeoffice.gov.uk/public/css/vendors.e3045314.chunk.css */
-.govuk-table,
+.msptable,
 table {
   font-family: Atkinson Hyperlegible,
   serif;
@@ -5289,7 +5279,7 @@ table {
 
 @media print {
 
-  .govuk-table,
+  .msptable,
   table {
     font-family: sans-serif;
   }
@@ -5297,7 +5287,7 @@ table {
 
 @media (min-width: 40.0625em) {
 
-  .govuk-table,
+  .msptable,
   table {
     font-size: 19px;
     font-size: 1.1875rem;
@@ -5307,7 +5297,7 @@ table {
 
 @media print {
 
-  .govuk-table,
+  .msptable,
   table {
     font-size: 14pt;
     line-height: 1.15;
@@ -5316,7 +5306,7 @@ table {
 
 @media print {
 
-  .govuk-table,
+  .msptable,
   table {
     color: #000;
   }
@@ -5324,20 +5314,20 @@ table {
 
 @media (min-width: 40.0625em) {
 
-  .govuk-table,
+  .msptable,
   table {
     margin-bottom: 30px;
   }
 }
 
-.govuk-table__header,
+.msptable__header,
 table th {
   font-weight: 700;
 }
 
-.govuk-table__header,
+.msptable__header,
 table th,
-.govuk-table__cell,
+.msptable__cell,
 table td {
   padding: 10px 20px 10px 0;
   border-bottom: 1px solid #b1b4b6;
@@ -5345,21 +5335,21 @@ table td {
   vertical-align: top;
 }
 
-.govuk-table__header:last-child,
+.msptable__header:last-child,
 table th:last-child,
-.govuk-table__cell:last-child,
+.msptable__cell:last-child,
 table td:last-child {
   padding-right: 0;
 }
 
-.govuk-table__caption,
+.msptable__caption,
 table caption {
   font-weight: 700;
   display: table-caption;
   text-align: left;
 }
 
-.govuk-table__caption--l {
+.msptable__caption--l {
   font-family: Atkinson Hyperlegible,
   serif;
   -webkit-font-smoothing: antialiased;
@@ -5372,13 +5362,13 @@ table caption {
 }
 
 @media print {
-  .govuk-table__caption--l {
+  .msptable__caption--l {
     font-family: sans-serif;
   }
 }
 
 @media (min-width: 40.0625em) {
-  .govuk-table__caption--l {
+  .msptable__caption--l {
     font-size: 36px;
     font-size: 2.25rem;
     line-height: 1.1111111111;
@@ -5386,14 +5376,14 @@ table caption {
 }
 
 @media print {
-  .govuk-table__caption--l {
+  .msptable__caption--l {
     font-size: 24pt;
     line-height: 1.05;
   }
 }
 
 /*! CSS Used from: https://design.homeoffice.gov.uk/public/css/styles.1ee446f4.chunk.css */
-.govuk-table {
+.msptable {
   font-family: Atkinson Hyperlegible,
   serif;
   -webkit-font-smoothing: antialiased;
@@ -5411,13 +5401,13 @@ table caption {
 }
 
 @media print {
-  .govuk-table {
+  .msptable {
     font-family: sans-serif;
   }
 }
 
 @media (min-width: 40.0625em) {
-  .govuk-table {
+  .msptable {
     font-size: 19px;
     font-size: 1.1875rem;
     line-height: 1.3157894737;
@@ -5425,48 +5415,48 @@ table caption {
 }
 
 @media print {
-  .govuk-table {
+  .msptable {
     font-size: 14pt;
     line-height: 1.15;
   }
 }
 
 @media print {
-  .govuk-table {
+  .msptable {
     color: #000;
   }
 }
 
 @media (min-width: 40.0625em) {
-  .govuk-table {
+  .msptable {
     margin-bottom: 30px;
   }
 }
 
-.govuk-table__header {
+.msptable__header {
   font-weight: 700;
 }
 
-.govuk-table__header,
-.govuk-table__cell {
+.msptable__header,
+.msptable__cell {
   padding: 10px 20px 10px 0;
   border-bottom: 1px solid #b1b4b6;
   text-align: left;
   vertical-align: top;
 }
 
-.govuk-table__header:last-child,
-.govuk-table__cell:last-child {
+.msptable__header:last-child,
+.msptable__cell:last-child {
   padding-right: 0;
 }
 
-.govuk-table__caption {
+.msptable__caption {
   font-weight: 700;
   display: table-caption;
   text-align: left;
 }
 
-.govuk-table__caption--l {
+.msptable__caption--l {
   font-family: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5478,13 +5468,13 @@ table caption {
 }
 
 @media print {
-  .govuk-table__caption--l {
+  .msptable__caption--l {
     font-family: sans-serif;
   }
 }
 
 @media (min-width: 40.0625em) {
-  .govuk-table__caption--l {
+  .msptable__caption--l {
     font-size: 36px;
     font-size: 2.25rem;
     line-height: 1.1111111111;
@@ -5492,7 +5482,7 @@ table caption {
 }
 
 @media print {
-  .govuk-table__caption--l {
+  .msptable__caption--l {
     font-size: 24pt;
     line-height: 1.05;
   }
